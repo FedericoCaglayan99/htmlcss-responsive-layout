@@ -1,0 +1,76 @@
+/* Soluzione qui */
+
+@media (min-width: 768px) {
+   
+    #topbar {
+      justify-content: flex-start;
+      padding-left: 20px;
+    }
+    
+    main {
+      padding: 40px;
+    }
+  
+    .recipe-origin {
+      display: inline;
+      font-size: 2.1rem; 
+    }
+  
+    .recipe-name {
+      font-size: 2.1rem;
+      white-space: nowrap; 
+    }
+  
+    .recipe-info {
+      gap: 20px; 
+      
+    }
+  
+    .social-networks button {
+      padding: 15px 55px;
+      font-size: 16px;
+      width: 100%; 
+      text-align: center;
+    }
+    .ads {
+      display: block;
+      margin: 20px auto;
+    }
+  
+    .presentation p {
+        line-height: 1.8rem; 
+        text-align: justify; 
+      }
+    
+      .presentation img {
+        float: left; 
+        margin: 0 20px 10px 0; 
+        max-width: 300px; 
+      }
+
+  
+  .quick-notes ul {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 35px; 
+   justify-content: flex-start;
+
+  }
+  .quick-notes li {
+    font-size: 1.3rem;
+  }
+  p {
+    font-size: 1.3em;
+  }
+  i {
+    font-size: 1rem;
+  }
+  address {
+    font-size: 1rem;
+  }
+  nav ul li a  {
+    font-size: 1rem;
+  }
+
+  
+}
